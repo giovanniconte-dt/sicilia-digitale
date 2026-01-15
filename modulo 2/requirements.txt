@@ -1,0 +1,21 @@
+# Dipendenze per Modulo 2: LangChain e Fondamenti Pratici
+# LangChain versione 1.0+ (rilasciata ottobre 2024)
+
+# LangChain Core - Versione 1.0+
+# NOTA: Il pacchetto 'langchain' include i moduli legacy (usati solo per ConversationSummaryBufferMemory)
+# Per LCEL usiamo: RunnableWithMessageHistory, ChatMessageHistory, ChatPromptTemplate
+langchain>=1.0.0
+langchain-community>=0.3.0
+langchain-core>=1.0.0
+
+# LangChain Ollama - API moderna per Ollama (richiesto per LangChain 1.0+)
+langchain-ollama>=0.1.0
+
+# Jupyter per notebook
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Gestione variabili ambiente (opzionale)
+python-dotenv>=1.0.0
+
+# Note: Ollama deve essere installato separatamente o via Docker
